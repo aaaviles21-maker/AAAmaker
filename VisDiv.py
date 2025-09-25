@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-class DivisibilityVisualizer(tk.Tk):
+class DivisibilityVisualizer(tk.tk):
     """
     Una aplicación visual para entender la divisibilidad de los números,
     los números primos y los compuestos.
@@ -151,4 +151,5 @@ class DivisibilityVisualizer(tk.Tk):
 
 if __name__ == "__main__":
     app = DivisibilityVisualizer()
+
     app.mainloop()
